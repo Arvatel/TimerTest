@@ -12,27 +12,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        android:textSize="40sp"
-        android:fontFamily="@font/main_font"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
+        android:textSize="0sp"
+        android:fontFamily="@font/main_font" />
 
     <TextView
         android:id="@+id/textTime2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        android:fontFamily="@font/main_font"
+        android:fontFamily="@font/main_font" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coming soon.."
         android:textColor="@color/white"
+        android:fontFamily="@font/main_font"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6"
-        android:textSize="40sp"/>
+        app:layout_constraintVertical_bias="0.5"
+        android:textSize="70sp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
